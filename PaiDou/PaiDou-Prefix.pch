@@ -1,0 +1,34 @@
+//
+//  PaiDou-Prefix.pch
+//  PaiDou
+//
+//  Created by JSen on 14/11/5.
+//  Copyright (c) 2014年 wifitong. All rights reserved.
+//
+
+#ifndef PaiDou_PaiDou_Prefix_pch
+#define PaiDou_PaiDou_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "Define.h"
+#import "AFHTTPRequestOperationManager.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "AFHttpHandler.h"
+#import "MacroDefinition.h"
+#import "Utils.h"
+#import "UIViewExt.h"
+#import "UIFont+AppSetting.h"
+#import "UIColor+AppSetting.h"
+#import "UIImage+imageNamed_JSen.h"
+#import "CustomReachability.h"
+#import "RDVTabBarController.h"
+#import "NSString+URLEncoding.h"
+#endif
+
+#endif
